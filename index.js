@@ -91,7 +91,8 @@ function checkWinner() {
             }
         }
     }
-
+  
+    
     const firstMain = board[0][0];
     if (firstMain !== EMPTY) {
         let win = true;
